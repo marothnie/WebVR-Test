@@ -2,18 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>360 Video</title>
-    <meta name="description" content="360 Video — A-Frame">
-    <script src="../../../dist/aframe.js"></script>
+    <title>Hello, World! • A-Frame</title>
+    <meta name="description" content="Hello, World! • A-Frame">
+    <script src="aframe/aframe.js"></script>
+   
   </head>
   <body>
-    <a-scene>
-      <a-assets>
-        <video id="video" src="https://video.wixstatic.com/video/8da49a_5012524b6f02431b875ed6d0c89e6680/1080p/mp4/file.mp4"
-               autoplay loop crossorigin></video>
-      </a-assets>
+    <div style="width: 400px;">
+      
+      <a-scene>
+        <a-sky src="PANO_20140222_124855.jpg" rotation="0 -130 0"></a-sky>
+      </a-scene>
 
-      <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
-    </a-scene>
+    </div>
   </body>
 </html>
