@@ -10,7 +10,10 @@
   <body>
     <div style="width: 400px;">
       
-      <a-scene vr-mode-ui="enabled: true">
+      <a-scene
+  vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton">
+  <!-- Style the button with images or whatever. -->
+  <a id="myEnterVRButton" href="https://cdn.icon-icons.com/icons2/2518/PNG/512/brand_instagram_icon_151534.png"></a>
         <a-sky src="https://video.wixstatic.com/video/8da49a_5012524b6f02431b875ed6d0c89e6680/1080p/mp4/file.mp4" rotation="0 -130 0"></a-sky>
       </a-scene>
 
